@@ -1,20 +1,9 @@
-.card {
-	margin-left: 10pt;
-	background-color: teal;
-	width: 312pt;
-	border-radius: 0.66em;
+h1, h2, h3, h4, h5 {
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
-
-
-.property {
-	margin-left: 10pt;
-	border: solid 1px blue;
-	background-color: white;
-	border-bottom: 1px solid transparent;
-}
-
-h1, .housing-type, .bullet, .age {
+h1 {
 	color: #4C5666;
 	font-family: Arial, Helvetica, sans-serif;
 	text-transform: uppercase;
@@ -24,27 +13,21 @@ h1, .housing-type, .bullet, .age {
 	letter-spacing: .07rem;
 }
 
-h2, .price {
+h2 {
 	color: #000000;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 30pt;
 	font-weight: 100;
 }
 
-h3, .realtor-name, .bedroom-count, .bathroom-count {
-	background-color: cornflowerblue;
+h3 {
 	font-size: 16pt;
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight: 700;
 	letter-spacing: .05rem;
-	display: inline;
 }
 
-li, .bedrooms {
-	display: inline;
-}
-
-h4, .realtor {
+h4 {
 	color: #748194;
 	font-family: Arial, Helvetica, sans-serif;
 	text-transform: uppercase;
@@ -53,65 +36,148 @@ h4, .realtor {
 	letter-spacing: .07rem;
 }
 
-
-h5, .address, .realtor-phone {
+h5 {
 	color: #4C5666;
-	background-color: coral;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14pt;
 	font-weight: 100;
 	letter-spacing: .07rem;
 }
 
-
-
-
-.rooms {
-	background-color: #991b1b;
-	padding: 1.25em;
-	border: solid 1px yellow;
+body {
+	background-color: #EDF2F6;
 }
 
-
-/li {
-	list-style: none;
-	display: inline;
+.card-container {
+	width: 475px;
+	margin: 50px auto 0 auto;
 }
 
-.icon {
-	width: 50px;
-	display: inline-block;
-	padding: 0px 14px 0px 0px;
+.card {
+	background-color: #FFFFFF;
+	border-radius: 0.66em;
+	box-shadow: 5px 5px 5px #E6E9ED;
 }
 
-.icon {
-	width: 50px;
-	display: inline-block;
-	padding: 0px 14px 0px 0px;
-}
-
-
-
-
-
-
-
-
-img {
-	max-width: 100%;
+.property-photo img {
+	max-width: 475px;
 	border-top-left-radius: 0.66em;
 	border-top-right-radius: 0.66em;
 }
 
+.property {
+	border-bottom: 1px solid #E6E9ED;
+	background-color: #FFFFFF;
+	padding: 1.25em;
+}
+
+.property-type, .bullet, .age {
+	color: #4C5666;
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	font-weight: 600;
+	display: inline;
+	font-size: 12pt;
+	letter-spacing: .07rem;
+}
 
 
+.price {
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30pt;
+	font-weight: 100;
+	padding: 14px 0 14px 0;
+	text-transform: capitalize;
+}
+
+.realtor-name {
+	font-size: 16pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 700;
+	letter-spacing: .05rem;
+	display: inline;
+	margin: 0 0 px 0;
+	text-transform: capitalize;
+}
 
 
+.room-count {
+	font-size: 16pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 700;
+	letter-spacing: .05rem;
+	margin: 0 5px 0 16px;
+	display: inline;
+}
 
+.room-type {
+	display: inline;
+	flex: 1;
+	text-transform: capitalize;
+}
+
+.rooms {
+	padding: 1.25em;
+	background-color: #FFFFFF;
+	border-bottom: 1px solid #E6E9ED;
+}
+
+.room {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin: 8px 10px 8px 0;
+}
+
+.icon {
+	width: 30px;
+}
+
+.learn-more-container {
+	padding: 25px 0px 15px 0px;
+}
+
+.full-listing {
+	color:#ffffff;
+	background-color: #4C5666;
+	font-size: 14pt;
+	padding: 15px 25px;
+	text-decoration: none;
+	border-radius: 0.66em;
+	font-weight: 100;
+	font-family: sans-serif, Arial, Helvetica;
+	letter-spacing: .07rem;
+	box-shadow: 5px 5px 5px #E6E9ED;
+	text-transform: capitalize;
+}
 
 .footer {
 	background-color: #F7FAFC;
 	padding: 1.25em;
 	border-bottom-left-radius: 0.66em;
 	border-bottom-right-radius: 0.66em;
+}
+
+.realtor {
+	color: #748194;
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 12pt;
+	letter-spacing: .07rem;
+	padding: 0 0 14px 0;
+}
+
+.address, .realtor-phone {
+	color: #4C5666;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14pt;
+	font-weight: 100;
+	letter-spacing: .07rem;
+	text-transform: capitalize;
+}
+
+.realtor-phone {
+	margin: 5px 0 5px 0;
 }
