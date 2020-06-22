@@ -1,0 +1,117 @@
+.card {
+	margin-left: 10pt;
+	background-color: teal;
+	width: 312pt;
+	border-radius: 0.66em;
+}
+
+
+
+.property {
+	margin-left: 10pt;
+	border: solid 1px blue;
+	background-color: white;
+	border-bottom: 1px solid transparent;
+}
+
+h1, .housing-type, .bullet, .age {
+	color: #4C5666;
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	font-weight: 600;
+	display: inline;
+	font-size: 12pt;
+	letter-spacing: .07rem;
+}
+
+h2, .price {
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30pt;
+	font-weight: 100;
+}
+
+h3, .realtor-name, .bedroom-count, .bathroom-count {
+	background-color: cornflowerblue;
+	font-size: 16pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 700;
+	letter-spacing: .05rem;
+	display: inline;
+}
+
+li, .bedrooms {
+	display: inline;
+}
+
+h4, .realtor {
+	color: #748194;
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 12pt;
+	letter-spacing: .07rem;
+}
+
+
+h5, .address, .realtor-phone {
+	color: #4C5666;
+	background-color: coral;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14pt;
+	font-weight: 100;
+	letter-spacing: .07rem;
+}
+
+
+
+
+.rooms {
+	background-color: #991b1b;
+	padding: 1.25em;
+	border: solid 1px yellow;
+}
+
+
+/li {
+	list-style: none;
+	display: inline;
+}
+
+.icon {
+	width: 50px;
+	display: inline-block;
+	padding: 0px 14px 0px 0px;
+}
+
+.icon {
+	width: 50px;
+	display: inline-block;
+	padding: 0px 14px 0px 0px;
+}
+
+
+
+
+
+
+
+
+img {
+	max-width: 100%;
+	border-top-left-radius: 0.66em;
+	border-top-right-radius: 0.66em;
+}
+
+
+
+
+
+
+
+.footer {
+	background-color: #F7FAFC;
+	padding: 1.25em;
+	border-bottom-left-radius: 0.66em;
+	border-bottom-right-radius: 0.66em;
+}
